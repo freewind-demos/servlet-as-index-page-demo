@@ -11,7 +11,10 @@
 
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/hello.html</url-pattern>
     </servlet-mapping>
 
+    <welcome-file-list>
+        <welcome-file>hello.html</welcome-file>
+    </welcome-file-list>
 </web-app>
